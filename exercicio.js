@@ -397,12 +397,24 @@ for(let indice = 0; indice < listaTarefas.length; indice++) {
 
 //OBS.: Na resolução, a Gabs disse que não precisa usar Função nesse exercicio, pois não aprenemos ainda.
 
+/*
 const valoresNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     for (let i = 0; i < valoresNum.length; i++) {
         if (valoresNum[i] % 2 === 0) {
             console.log(valoresNum[i]);
         }
     }
+*/
+// Melhorando a legibilidade do exercicio:
+
+const valoresNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    for (let i = 0; i < valoresNum.length; i++) {
+        const valorAtual = valoresNum[i];
+        if (valorAtual % 2 === 0) {
+            console.log(valorAtual);
+        }
+    }
+
 
 /*
 13. Um outro loop interessante do Javascript é o while, ele é um tipo de loop que executa uma instrução enquanto a condição especificada é verdadeira e para quando essa condição não é mais verdadeira, 
